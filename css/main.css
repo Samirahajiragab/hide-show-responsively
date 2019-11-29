@@ -36,7 +36,6 @@ img {
   display: none;
 }
 
-.dion:nth-child(even),
 .dino-wrap {
   display: flex;
   flex-direction: column;
@@ -85,18 +84,6 @@ img {
   .dino-wrap {
     display: flex;
     flex-wrap: nowrap;
-  }
-
-  .dino {
-    display: flex;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  .dino:first-child {
-    display: block;
   }
 
   .dino, .dino:nth-child(even) {
