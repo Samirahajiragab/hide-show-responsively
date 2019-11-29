@@ -17,6 +17,11 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 .dino-wrap img {
   display: flex;
   flex-wrap: wrap;
@@ -24,10 +29,10 @@ html {
 }
 
 .dino:last-child {
-    display: none;
+  display: none;
   }
 
-.dino:nth-child(2){
+.dino:nth-child(2) {
   display: none;
   }
 
@@ -40,12 +45,12 @@ html {
 @media only screen and (min-width: 25em) {
 
   .dino:last-child {
-      display: block;
-    }
-
-  .dino:nth-child(2){
     display: block;
-    }
+  }
+
+  .dino:nth-child(2) {
+  display: block;
+  }
 
   .dino-wrap {
     display: flex;
@@ -57,35 +62,45 @@ html {
     width: 50%;
   }
 
-  }
+}
+
 @media only screen and (min-width: 38em) {
 
   .dino:first-child {
     display: none;
-    }
-
-  .dino, .dino:nth-child(even) {
-  width: 33.3333%;
   }
 
+  .dino, .dino:nth-child(even) {
+    width: 33.3333%;
+  }
+
+}
 
 @media only screen and (min-width: 60em) {
 
   .dino:first-child {
     display: block;
     }
+
   .dino-wrap {
     display: flex;
     flex-wrap: nowrap;
-
   }
+
+  .dino {
+    display: flex;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
-.dino:first-child {
-  display: block;
-  }
-.dino,.dino:nth-child(even) {
+  .dino:first-child {
+    display: block;
+}
+
+  .dino, .dino:nth-child(even) {
   width: 25%;
+  }
+
 }
