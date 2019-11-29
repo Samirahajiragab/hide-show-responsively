@@ -30,11 +30,11 @@ img {
 
 .dino:last-child {
   display: none;
-  }
+}
 
 .dino:nth-child(2) {
   display: none;
-  }
+}
 
 .dion:nth-child(even),
 .dino-wrap {
@@ -49,7 +49,7 @@ img {
   }
 
   .dino:nth-child(2) {
-  display: block;
+    display: block;
   }
 
   .dino-wrap {
@@ -80,7 +80,7 @@ img {
 
   .dino:first-child {
     display: block;
-    }
+  }
 
   .dino-wrap {
     display: flex;
@@ -97,10 +97,10 @@ img {
 
   .dino:first-child {
     display: block;
-}
+  }
 
   .dino, .dino:nth-child(even) {
-  width: 25%;
+    width: 25%;
   }
 
 }
